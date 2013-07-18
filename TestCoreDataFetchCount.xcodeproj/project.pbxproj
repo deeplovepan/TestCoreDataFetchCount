@@ -24,6 +24,8 @@
 		A68555DE179798F300DE0303 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68555BD179798F200DE0303 /* CoreData.framework */; };
 		A68555E6179798F300DE0303 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A68555E4179798F300DE0303 /* InfoPlist.strings */; };
 		A68555E9179798F300DE0303 /* TestCoreDataFetchCountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A68555E8179798F300DE0303 /* TestCoreDataFetchCountTests.m */; };
+		A68555F4179799C600DE0303 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68555F3179799C600DE0303 /* FirstViewController.m */; };
+		A68555F717979C0000DE0303 /* SportSync.m in Sources */ = {isa = PBXBuildFile; fileRef = A68555F617979C0000DE0303 /* SportSync.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		A68555E5179798F300DE0303 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A68555E7179798F300DE0303 /* TestCoreDataFetchCountTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCoreDataFetchCountTests.h; sourceTree = "<group>"; };
 		A68555E8179798F300DE0303 /* TestCoreDataFetchCountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCoreDataFetchCountTests.m; sourceTree = "<group>"; };
+		A68555F2179799C600DE0303 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A68555F3179799C600DE0303 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A68555F517979C0000DE0303 /* SportSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportSync.h; sourceTree = "<group>"; };
+		A68555F617979C0000DE0303 /* SportSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportSync.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +129,11 @@
 				A68555C8179798F200DE0303 /* AppDelegate.h */,
 				A68555C9179798F200DE0303 /* AppDelegate.m */,
 				A68555D1179798F200DE0303 /* TestCoreDataFetchCount.xcdatamodeld */,
+				A68555F517979C0000DE0303 /* SportSync.h */,
+				A68555F617979C0000DE0303 /* SportSync.m */,
 				A68555C0179798F200DE0303 /* Supporting Files */,
+				A68555F2179799C600DE0303 /* FirstViewController.h */,
+				A68555F3179799C600DE0303 /* FirstViewController.m */,
 			);
 			path = TestCoreDataFetchCount;
 			sourceTree = "<group>";
@@ -273,6 +283,8 @@
 				A68555C6179798F200DE0303 /* main.m in Sources */,
 				A68555CA179798F200DE0303 /* AppDelegate.m in Sources */,
 				A68555D3179798F200DE0303 /* TestCoreDataFetchCount.xcdatamodeld in Sources */,
+				A68555F4179799C600DE0303 /* FirstViewController.m in Sources */,
+				A68555F717979C0000DE0303 /* SportSync.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
